@@ -1,0 +1,60 @@
+<html>
+<head>
+    <title>Game 1</title>
+    <style>
+        body{
+            background: #202028;
+            color: white;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        .score{
+            font-size: 2em;
+            
+        }
+        canvas{
+            border: solid .2em #fff;
+            height: 90%;
+        }
+        .container{
+            float: right;
+            border: 2px solid white;
+            padding: 10px;
+        }
+        .containerOne{
+            float: left;
+            border: 2px solid white;
+            padding: 10px;
+        }
+        
+        
+        
+    
+       
+       
+    </style>
+    </head>
+    <body id="body">
+        <h3>Easy</h3>
+        <div class="container">    
+        <p>Score: </p>   
+        <div id="score" class="score"></div>
+        <p>Lines: </p>
+        <div id="line"></div>
+        <p>Level: </p>
+        <div id="level"></div>
+            </div>
+        <div class="containerOne">
+        <h3>Conrols: </h3>
+            <p>Up Arrow = Rotate</p>
+            <p>Left Arrow = Move Left</p>
+            <p>Right Arrow = Move Right</p>
+            <p>Down Arrow = Drop Piece</p>
+            <p>P = Pause</p>
+            <p>Enter = Resume</p>
+        </div>
+    <canvas id="tetris" width="240" height="400"></canvas>
+        <script src="tetris.js"></script>
+        
+    </body>
+</html>
